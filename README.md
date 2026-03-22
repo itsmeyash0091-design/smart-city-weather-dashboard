@@ -61,25 +61,3 @@ This app doesn't just show weather — it helps you **decide what to do**:
 
 ---
 
-## 🧪 Future Improvements
-
-* 🤖 AI-based clothing recommendations
-* 📊 Weather analytics dashboard
-* 🌐 Multi-language support
-* 📱 Mobile app version
-
----
-
-## 📸 Demo (Coming Soon)
-
----
-
-## 🙌 Author
-
-Built by [Your Name]
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
