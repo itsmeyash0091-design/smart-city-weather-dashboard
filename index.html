@@ -1,53 +1,56 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Weather App</title>
-  <link rel="stylesheet" href="./index.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-  <h1>Weather App</h1>
+        <h1>Weather App</h1>
 
 
-  <input type="text" id="city" placeholder="Enter city name">
-  <button onclick="getWeather()">Search</button>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button onclick="getWeather()">Search</button>
 
-  <br><br>
+        <br><br>
 
- 
-  <button id="toggleTheme">Toggle Theme</button>
 
-  <br><br>
+        <button id="toggleTheme">Toggle Theme</button>
 
-  
-  <select id="filterTemp">
-    <option value="all">All</option>
-    <option value="hot">Hot (>25°C)</option>
-    <option value="cold">Cold (≤25°C)</option>
-  </select>
+        <br><br>
 
-  <select id="sortTemp">
-    <option value="default">Sort</option>
-    <option value="asc">Low → High</option>
-    <option value="desc">High → Low</option>
-  </select>
 
-  
-  <p id="loading"></p>
+        <select id="filterTemp">
+            <option value="all">All</option>
+            <option value="hot">Hot (>25°C)</option>
+            <option value="cold">Cold (≤25°C)</option>
+        </select>
 
- 
-  <div id="weather"></div>
+        <select id="sortTemp">
+            <option value="default">Sort</option>
+            <option value="asc">Low → High</option>
+            <option value="desc">High → Low</option>
+        </select>
 
-  
-  <h3>Recent Searches</h3>
-  <div id="history"></div>
 
-</div>
+        <p id="loading"></p>
 
-<script src="script.js"></script>
+
+        <div id="weather"></div>
+        <div id="forecast" style="margin-top: 15px;"></div>
+
+
+        <h3>Recent Searches</h3>
+        <div id="history"></div>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
